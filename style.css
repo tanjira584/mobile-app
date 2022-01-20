@@ -3,6 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-h2 {
-    color: red;
+.home-area {
+    background-color: #6f475b;
+}
+
+.home-content h1 {
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.home-content p {
+    font-weight: bold;
+}
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-top {
+    background: #2b2e36;
+    padding: 100px 0;
 }
